@@ -421,7 +421,7 @@ transition: color 0.3s ease;
 #equipment { background: var(--charcoal); }
 .equip-grid {
 max-width: 1100px; margin: 0 auto;
-display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 gap: 1.5rem;
 }
 .equip-card {
@@ -456,6 +456,7 @@ letter-spacing: 2px; color: var(--pure-white); margin-bottom: 0.6rem;
 .equip-card p {
 color: var(--light-grey); font-size: 0.92rem; line-height: 1.8;
 }
+.equip-card p strong { color: var(--pure-white); }
 
 /* REVIEWS */
 #reviews { background: var(--black); }
@@ -793,36 +794,43 @@ With thousands of hours behind the decks, I've built a solid reputation for deli
 <div class="accent-line"></div>
 </div>
 <div class="equip-grid">
-<div class="equip-card fi">
-<div class="equip-icon">&#9836;</div>
-<h4>Controllers</h4>
-<p>Placeholder --- add your controller details here (e.g., Pioneer DDJ-1000, DDJ-FLX10, etc.)</p>
-</div>
-<div class="equip-card fi d1">
-<div class="equip-icon">&#127911;</div>
-<h4>Headphones</h4>
-<p>Placeholder --- add your headphone details here (e.g., Pioneer HDJ-X10, Audio-Technica ATH-M50x, etc.)</p>
-</div>
-<div class="equip-card fi d2">
-<div class="equip-icon">&#128266;</div>
-<h4>Speakers & Monitors</h4>
-<p>Placeholder --- add your speaker details here (e.g., QSC K12.2, Yamaha DXR12, etc.)</p>
-</div>
-<div class="equip-card fi d3">
-<div class="equip-icon">&#128161;</div>
-<h4>Lighting</h4>
-<p>Placeholder --- add your lighting details here (e.g., Chauvet DJ GigBAR, moving heads, etc.)</p>
-</div>
-<div class="equip-card fi">
-<div class="equip-icon">&#128187;</div>
-<h4>Software</h4>
-<p>Placeholder --- add your software details here (e.g., Rekordbox, Serato DJ Pro, etc.)</p>
-</div>
-<div class="equip-card fi d1">
-<div class="equip-icon">&#128247;</div>
-<h4>Mobile Setup</h4>
-<p>Placeholder --- add your mobile setup details here (e.g., foldable booth, laptop stand, etc.)</p>
-</div>
+
+  <div class="equip-card fi">
+    <div class="equip-icon">&#9836;</div>
+    <h4>Decks</h4>
+    <p>I perform on the <strong>Pioneer DDJ-RX3</strong> — the same professional standard controller used in clubs across the UK. You're getting headline-act quality behind the decks, whether it's an intimate birthday or a packed venue.</p>
+  </div>
+
+  <div class="equip-card fi d1">
+    <div class="equip-icon">&#128266;</div>
+    <h4>Sound System</h4>
+    <p>My rig scales to your event. I carry <strong>dual 15" main speakers</strong> and <strong>two 12" subwoofers</strong> for larger events, alongside <strong>two compact 8" speakers</strong> for smaller, more intimate settings — crystal clear, powerful sound at every size.</p>
+  </div>
+
+  <div class="equip-card fi d2">
+    <div class="equip-icon">&#128161;</div>
+    <h4>Lighting</h4>
+    <p>A full professional lighting rig included as standard — <strong>3 par cans, 2 moving heads, a laser, and a Chauvet multi-FX unit</strong>. Your dancefloor will look and feel like a proper club night from the moment the first track drops.</p>
+  </div>
+
+  <div class="equip-card fi d3">
+    <div class="equip-icon">&#127381;</div>
+    <h4>Professional Setup</h4>
+    <p>I arrive with a <strong>professional DJ booth, speaker stands, and lighting stands</strong> — everything needed for a clean, polished setup that looks as good as it sounds. No makeshift rigs, no mess. Just a setup your guests will notice.</p>
+  </div>
+
+  <div class="equip-card fi">
+    <div class="equip-icon">&#9989;</div>
+    <h4>Public Liability Insured</h4>
+    <p>I am <strong>fully public liability insured</strong>, giving you complete peace of mind on the day. Most venues require this as standard — I come fully covered so there's one less thing for you to worry about when planning your event.</p>
+  </div>
+
+  <div class="equip-card fi d1">
+    <div class="equip-icon">&#127970;</div>
+    <h4>Any Event, Any Size</h4>
+    <p>From an intimate gathering of 30 to a large wedding reception or club night, my setup is built to handle it all. I assess every event individually and bring exactly what's needed — <strong>no over-complicating, no cutting corners.</strong></p>
+  </div>
+
 </div>
 </section>
 
@@ -872,7 +880,7 @@ Don't just take my word for it --- here's what past clients and venues have said
 <p>Listen on SoundCloud</p>
 <div class="accent-line"></div>
 </div>
-<div class="sc-wrap fi">
+<div class="mixes-wrap fi">
 <div class="sc-box">
 <iframe scrolling="no" frameborder="no" allow="autoplay"
 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1072060630&color=%2338bdf8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
